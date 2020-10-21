@@ -5,7 +5,7 @@ Number.prototype.countDecimals = function () {
 
 let prevCredit = '100.00';
 let originalCredit = null;
-const history = [
+const histories = [
 	{
 		paymentNumber: 'Invoice202101',
 		date: new Date(),
